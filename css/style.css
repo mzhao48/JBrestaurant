@@ -47,6 +47,17 @@ header li {
   list-style: none;
 } 
 
+header li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: .9rem; 
+}
+
+header li a:hover {
+  text-decoration: underline;
+}
+
 header ul {
   display: flex;
   justify-content: space-between;
