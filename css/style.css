@@ -1,0 +1,141 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+body {
+  font-family: 'Playfair Display', serif;
+  background: rgb(242, 247, 250);
+}
+
+section {
+  padding-top: 25px;
+}
+
+span {
+  color: orange;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 75px;
+}
+
+header li {
+  width: 10%;
+  list-style: none;
+} 
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body > main, body > section {
+  padding-bottom: 50px;
+}
+
+main {
+  padding-left: 10%;
+  padding-right: 50%;
+  height: 275px;
+}
+
+input {
+  width: 75%;
+}
+
+main > section > ul {
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main li {
+  /* float: left; */
+  width: 25%;
+  list-style: none;
+}
+
+main + section {
+  background: white;
+  padding-left: 40%;
+  padding-right: 10%;
+}
+
+main + section + section {
+  text-align: center;
+}
+
+main + section + section > ul {
+  padding: 0 20% 0 20%;
+}
+
+main + section + section > ul > li {
+  float: left;
+  width: 20%;
+  list-style: none;
+  padding-bottom: 25px;
+}
+
+main + section + section + section {
+  background: white;
+  text-align: center;
+}
+
+main + section + section + section > section {
+  padding: 0 10% 0 10%;
+}
+
+main + section + section + section > section section {
+  float: left;
+  width: 50%;
+  padding-bottom: 25px;
+}
+
+main + section + section + section + section {
+  text-align: center;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media screen and (max-width: 600px) {
+  
+  header ul {
+    margin-left: 0;
+  }
+
+  header li + li + li + li + li {
+    display:none;
+  }
+
+  header li {
+    width: 25%;
+  }
+}
