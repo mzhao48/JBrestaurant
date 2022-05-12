@@ -72,6 +72,10 @@ main {
   padding-left: 10%;
   padding-right: 50%;
   height: 275px;
+  background-image: url(/assets/main-background.png);
+  background-size: austo;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 input {
