@@ -73,7 +73,7 @@ main {
   padding-right: 50%;
   height: 275px;
   background-image: url(/assets/main-background.png);
-  background-size: austo;
+  background-size: auto;
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -156,5 +156,9 @@ main + section + section + section + section {
 
   header li {
     width: 25%;
+  }
+
+  main {
+    height: 325px;
   }
 }
