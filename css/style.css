@@ -101,8 +101,12 @@ main li {
 
 main + section {
   background: white;
-  padding-left: 40%;
+  padding-left: 50%;
   padding-right: 10%;
+  background-image: url(/assets/chef-removebg.png);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 main + section + section {
@@ -160,5 +164,9 @@ main + section + section + section + section {
 
   main {
     height: 325px;
+  }
+
+  main + section {
+    background-size: auto;
   }
 }
