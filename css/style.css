@@ -193,3 +193,14 @@ main + section + section + section + section {
     padding-left: 10%;
   }
 }
+
+@media (min-width: 1300px)  {
+  #mid-container {
+    width: 1000px;
+  }
+  
+  aside {
+    width: 25%;
+    /* background-color: green; */
+  }
+}
