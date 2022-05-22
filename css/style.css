@@ -170,6 +170,11 @@ main + section + section + section + section {
   text-align: center;
 }
 
+.testimonyP {
+  font-style: italic;
+  font-size: .8rem;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
