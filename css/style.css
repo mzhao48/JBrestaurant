@@ -122,12 +122,15 @@ main + section + section > ul > li {
   float: left;
   width: 20%;
   list-style: none;
+<<<<<<< HEAD
 }
 
 .gallery {
   width: 200px;
   height: 300px;
   padding: 5px;
+=======
+>>>>>>> 4258c7e348b0ea2a9aa0ed8427dd636d7c3aa9d6
 }
 
 main + section + section + section {
