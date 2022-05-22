@@ -40,18 +40,16 @@ span {
 /*******************************************/
 #whole-container {
   display: flex;
-  /* border: solid 2px black; */
 }
 
 #mid-container {
-  /* border: solid 2px green; */
   width: auto;
 }
 
 aside {
-  /* border: solid 2px red; */
   width: 15%;
   background-color: orange;
+  opacity:  .7;
 }
 
 header {
@@ -201,6 +199,5 @@ main + section + section + section + section {
   
   aside {
     width: 25%;
-    /* background-color: green; */
   }
 }
