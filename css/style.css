@@ -189,6 +189,7 @@ main + section + section + section + section {
   }
 
   main + section {
-    background-size: auto;
+    background-image: none;
+    padding-left: 10%;
   }
 }
