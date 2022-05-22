@@ -115,13 +115,19 @@ main + section + section {
 
 main + section + section > ul {
   padding: 0 20% 0 20%;
+  height: 25px;
 }
 
 main + section + section > ul > li {
   float: left;
   width: 20%;
   list-style: none;
-  padding-bottom: 25px;
+}
+
+.gallery {
+  width: 200px;
+  height: 300px;
+  padding: 5px;
 }
 
 main + section + section + section {
