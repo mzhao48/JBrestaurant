@@ -145,6 +145,12 @@ main + section + section > ul > li {
   padding: 5px;
 }
 
+.interiorPic {
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+}
+
 main + section + section + section {
   background: white;
   text-align: center;
